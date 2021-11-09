@@ -19,7 +19,7 @@ jobs:
 workflows:
   test_my_app:
     jobs:
-      - test
+      test
       - docker/publish:
           image: 'engagementteamci/node-addition-service'
           tag: circleci
