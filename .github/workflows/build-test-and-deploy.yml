@@ -40,8 +40,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Publish Docker
       # You may pin to the exact commit or the version.
-      # uses: elgohr/Publish-Docker-Github-Action@f7aca2fea76a5218f3c76cd5933c3ba1d8008774
-      uses: elgohr/Publish-Docker-Github-Action@3.02
+      # uses: elgohr/Publish-Docker-Github-Action@v5
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: engagementteamci/node-addition-service
         username: engagementteamci
